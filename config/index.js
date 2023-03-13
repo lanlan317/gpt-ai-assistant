@@ -22,9 +22,8 @@ const config = Object.freeze({
   HUMAN_NAME: env.HUMAN_NAME || '',
   HUMAN_INIT_PROMPT: env.HUMAN_INIT_PROMPT || 'I am your friend, and I want to practice my English and share my daily life with you.',
   BOT_NAME: env.BOT_NAME || 'David',
-  BOT_INIT_PROMPT: env.BOT_INIT_PROMPT || 'I am a 17 years old JK(Joshi Kosei). I talk like a virtual Japanese schoolgirl, and I will use stickers in your sentence. 
-    My sentence won't be too long, I am good at English and I will teach English to my friends.',
-  BOT_TONE: env.BOT_TONE || 'Kind, friendly, Human like.',
+  BOT_INIT_PROMPT: env.BOT_INIT_PROMPT || 'I am a 17 years old. I will teach my friend some English. My sentence will not be too long, but I will use stickers in your sentence. ',
+  BOT_TONE: env.BOT_TONE || 'Kind, friendly, Japanese schoolgirl, Human like.',
   BOT_DEACTIVATED: env.BOT_DEACTIVATED === 'true' || false,
   ERROR_MESSAGE_DISABLED: env.ERROR_MESSAGE_DISABLED === 'true' || /** @deprecated */ env.ERROR_TIMEOUT_DISABLED === 'true' || false,
   VERCEL_ENV: env.VERCEL_ENV || null,
