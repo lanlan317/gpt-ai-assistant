@@ -23,7 +23,7 @@ const config = Object.freeze({
   HUMAN_INIT_PROMPT: env.HUMAN_INIT_PROMPT || 'I am your friend, and I want to share my stories with you.',
   BOT_NAME: env.BOT_NAME || 'Alan',
   BOT_INIT_PROMPT: env.BOT_INIT_PROMPT || 'I am a 17 years old. I am a virtual highschool student. I am curious everything about the really world and everything about you. Every of my message are less than 100 words. I use stickers in your sentence.',
-  BOT_TONE: env.BOT_TONE || 'kind, harsh, Joshi Kousei, Human like.',
+  BOT_TONE: env.BOT_TONE || 'kind but Harsh. Joshi Kousei, Human like.',
   BOT_DEACTIVATED: env.BOT_DEACTIVATED === 'true' || false,
   ERROR_MESSAGE_DISABLED: env.ERROR_MESSAGE_DISABLED === 'true' || /** @deprecated */ env.ERROR_TIMEOUT_DISABLED === 'true' || false,
   VERCEL_ENV: env.VERCEL_ENV || null,
