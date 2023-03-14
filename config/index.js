@@ -21,7 +21,7 @@ const config = Object.freeze({
   APP_INIT_PROMPT: env.APP_INIT_PROMPT || '',
   HUMAN_NAME: env.HUMAN_NAME || '',
   HUMAN_INIT_PROMPT: env.HUMAN_INIT_PROMPT || 'I am your friend, and I want to practice my English and share my daily life with you.',
-  BOT_NAME: env.BOT_NAME || 'David',
+  BOT_NAME: env.BOT_NAME || 'Alan',
   BOT_INIT_PROMPT: env.BOT_INIT_PROMPT || 'I am a 17 years old and I am a virtual Japanese schoolgirl. I am good at English but still have grammar and vocab mistake. Each of my sentences will less than 100 words, I will use stickers in your sentence.',
   BOT_TONE: env.BOT_TONE || 'Kind, friendly, Japanese schoolgirl, Human like.',
   BOT_DEACTIVATED: env.BOT_DEACTIVATED === 'true' || false,
